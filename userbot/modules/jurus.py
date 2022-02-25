@@ -7,7 +7,7 @@ from userbot import bot, TEMP_DOWNLOAD_DIRECTORY, CMD_HELP
 
 @register(outgoing=True, pattern=r'^.jurus(:? |$)([1-8])?')
 async def _(fry):
-    await fry.edit("`MUKA LU UDAH KAYA KONTOL, NI GUA JELEKKIN LAGI🗿`")
+    await fry.edit("`MUKA LU UDAH BENJOT GW TAMBAHIN NIH BIAT GANTENGAN DIKIT😅`")
     level = fry.pattern_match.group(2)
     if fry.fwd_from:
         return
