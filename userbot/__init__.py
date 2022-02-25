@@ -232,7 +232,7 @@ GROUP_LINK = os.environ.get(
 
 # Default .repo Bot
 OWNER_BOT = os.environ.get(
-    "OWNER_BOT") or "t.me/PakkPoll"
+    "OWNER_BOT") or "t.me/Jesxzy"
 
 
 # Last.fm Module
@@ -279,7 +279,7 @@ QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
 
 # Defaul botlog msg
 BOTLOG_MSG = os.environ.get(
-    "BOTLOG_MSG") or "```║💀𝙺𝙰𝚁𝙼𝙰𝙽-𝚄𝚂𝙴𝚁𝙱𝙾𝚃💀 UDAH AKTIF KONTOL║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
+    "BOTLOG_MSG") or "```║😈JESS-UBOT😈 UDAH AKTIF 😴║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
 
 # Deezloader
 DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
@@ -403,7 +403,7 @@ ISAFK = False
 AFKREASON = None
 ZALG_LIST = {}
 
-#Import Userbot - Ported by ArmanGG01
+#Import Userbot - Ported by Jeskeren
 from userbot import (
     ALIVE_NAME
 )
@@ -484,7 +484,7 @@ def paginate_help(page_number, loaded_modules, prefix):
                     "< ̤< ̤", data="{}_prev({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
-                    f"💀 𝗖𝗟𝗢𝗦𝗘 💀", data="{}_close({})".format(prefix, modulo_page)
+                    f"😈JESS-UBOT😈", data="{}_close({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
                     "> ̤> ̤", data="{}_next({})".format(prefix, modulo_page)
@@ -508,11 +508,11 @@ with bot:
         async def handler(event):
             await event.message.get_sender()
             text = (
-                f"**Hey**, __I am using__  **💀 KARMAN-USERBOT 💀** \n\n"
+                f"**Hey**, __I am using__  **😈JESS-UBOT😈** \n\n"
                 f"       __Thanks For Using me__\n\n"
-                f"🗿 **Group Support :** [JAKANA](t.me/masukksiniJKN)\n"
-                f"⚠️ **Owner Repo :** [ARMAN](t.me/PakkPoll)\n"
-                f"📌 **Repo :** [KARMAN-USERBOT](https://github.com/ArmanGG01/KARMAN-USERBOT)\n"
+                f"🗿 **Group Support :** [MARGAXZY](t.me/Chbaruxzy)\n"
+                f"⚠️ **Owner Repo :** [JESS](t.me/Jesxzy)\n"
+                f"📌 **Repo :** [JESS-UBOT](https://github.com/Jeskeren/JESS-UBOT)\n"
             )
             await tgbot.send_file(
                 event.chat_id,
@@ -546,20 +546,20 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=True,
-                    text=f"**⚠️ inline JESS-BOT ⚠️**\n\n💀 **Owner** [JESS](t.me/PakkPoll)\n⚠️ **Jumlah** `{len(dugmeler)}` Modules",
+                    text=f"**⚠️ inline JESS-BOT ⚠️**\n\n💀 **Owner** [JESS](t.me/Jesxzy)\n⚠️ **Jumlah** `{len(dugmeler)}` Modules",
                     buttons=buttons,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository ⚠️KARMAN-USERBOT⚠️",
+                    description="Repository ⚠️JESS-UBOT⚠️",
                     url="https://t.me/masukksiniJKN",
-                    text="**💀KARMAN-USERBOT💀**\n➖➖➖➖➖➖➖➖➖➖\n⚠️ **Owner :** [ARMAN](https://t.me/PakkPoll)\n⚠️ **Support :** @masukksiniJKN\n⚠️ **Repository :** [💀KARMAN-USERBOT💀](https://github.com/ArmanGG01/KARMAN-USERBOT)\n➖➖➖➖➖➖➖➖➖➖ ",
+                    text="**😈JESS-UBOT😈**\n➖➖➖➖➖➖➖➖➖➖\n⚠️ **Owner :** [ARMAN](https://t.me/PakkPoll)\n⚠️ **Support :** @masukksiniJKN\n⚠️ **Repository :** [💀KARMAN-USERBOT💀](https://github.com/ArmanGG01/KARMAN-USERBOT)\n➖➖➖➖➖➖➖➖➖➖ ",
                     buttons=[
                         [
                             custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/masukksiniJKN"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ", "https://github.com/ArmanGG01/KARMAN-USERBOT"
+                                "ʀᴇᴘᴏ", "https://github.com/Jeskeren/JESS-UBOT"
                             ),
                         ],
                     ],
@@ -567,15 +567,15 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="💀KARMAN-USERBOT💀",
-                    description="KARMAN-USERBOT | Telethon",
+                    title="😈JESS-UBOT😈",
+                    description="JESS-UBOT | Telethon",
                     url="https://t.me/masukksiniJKN",
-                    text=f"**KARMAN-USERBOT**\n➖➖➖➖➖➖➖➖➖➖\n⚠️ **OWNER:** [ARMAN](t.me/PakkPoll)\n⚠️ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:**DeplyoBot01\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**JESS-UBOT**\n➖➖➖➖➖➖➖➖➖➖\n⚠️ **OWNER:** [JESS](t.me/Jesxzy)\n⚠️ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:**DeplyoBot01\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/masukksiniJKN"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ", "https://github.com/ArmanGG01/KARMAN-USERBOT"
+                                "ʀᴇᴘᴏ", "https://github.com/Jeskeren/JESS-UBOT"
                             ),
                         ],
                     ],
@@ -609,27 +609,27 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"💀KARMAN-USERBOT💀\n\n⚠️**Owner : [ARMAN](t.me/PakkPoll)**\n\n⚠️ **Bot Ver :** `8.0`\n⚠️ **𝗠odules :** `{len(dugmeler)}`",
+                    text=f"😈JESS-UBOT😈\n\n⚠️**Owner : [JESS](t.me/Jesxzy)**\n\n⚠️ **Bot Ver :** `8.0`\n⚠️ **𝗠odules :** `{len(dugmeler)}`",
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari 💀KARMAN-USERBOT💀 ",
+                    "Bantuan Dari 😈JESS-UBOT😈 ",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " 💀KARMAN-USERBOT💀 ",
-                    text="""**💀KARMAN-USERBOT💀\n\n Anda Bisa Membuat Geez Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
+                    " 😈JESS-UBOT😈 ",
+                    text="""**😈JESS-UBOT\n\n Anda Bisa Membuat Geez Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "💀KARMAN-USERBOT💀",
-                                "https://github.com/ArmanGG01/KARMAN-USERBOT"),
+                                "😈JESS-UBOT😈",
+                                "https://github.com/Jeskeren/JESS-UBOT"),
                             custom.Button.url(
                                 "OWNER",
-                                "t.me/PakkPoll")]],
+                                "t.me/Jesxzy")]],
                     link_preview=False,
                 )
             await event.answer([result] if result else None)
