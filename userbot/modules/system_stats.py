@@ -159,7 +159,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**☛**KARMAN-USERBOT Versi:** \n "
+            "**☛**JESS-UBOT Versi:** \n "
             f"{verout}"
             "\n**☛**Revisi:**\n "
             f"{revout}"
@@ -241,7 +241,7 @@ async def amireallyalive(alive):
         f"┣• `⚠️ Modules  :`{len(modules)} \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
-        f"[𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]({IG_ALIVE}) || [{REPO_NAME}](https://github.com/ArmanGG01/KARMAN-USERBOT) || [𝐆𝐑𝐎𝐔𝐏]({GROUP_LINK}) \n"
+        f"[𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]({IG_ALIVE}) || [{REPO_NAME}](https://github.com/Jeskeren/JESS-UBOT) || [𝐆𝐑𝐎𝐔𝐏]({GROUP_LINK}) \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
     if ALIVE_LOGO:
         try:
@@ -278,7 +278,7 @@ async def amireallyalive(alive):
         f"❃ **Versi Bot**      ➥ `7.0` \n"
         f"❃ **Modul**           ➥ `{len(modules)}` \n\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
-        f"[{REPO_NAME}](https://github.com/ArmanGG01/KARMAN-USERBOT) || [𝗚𝗥𝗢𝗨𝗣]({GROUP_LINK}) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
+        f"[{REPO_NAME}](https://github.com/Jeskeren/JESS-UBOT) || [𝗚𝗥𝗢𝗨𝗣]({GROUP_LINK}) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ **")
     if ALIVE_LOGO:
         try:
@@ -324,7 +324,7 @@ async def amireallyalive(alive):
         f"┣|• `Modules     :`{len(modules)} Modules \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
-        f"[{REPO_NAME}](https://github.com/ArmanGG01/KARMAN-USERBOT) || [𝐆𝐑𝐎𝐔𝐏]({GROUP_LINK}) || [𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]({IG_ALIVE}) \n"
+        f"[{REPO_NAME}](https://github.com/Jeskeren/JESS-UBOT) || [𝐆𝐑𝐎𝐔𝐏]({GROUP_LINK}) || [𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]({IG_ALIVE}) \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
     if ALIVE_LOGO:
         try:
