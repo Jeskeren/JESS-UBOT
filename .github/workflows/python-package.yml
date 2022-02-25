@@ -2,9 +2,9 @@
 
 on:
   push:
-    branches: [ KARMAN-USERBOT ]
+    branches: [ JESS-UBOT ]
   pull_request:
-    branches: [ KARMAN-USERBOT ]
+    branches: [ JESS-UBOT ]
 
 jobs:
   build:
