@@ -176,7 +176,7 @@ YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 RAM_TEKS_KOSTUM = os.environ.get("RAM_TEKS_KOSTUM") or "ㅤ"
 
 # Untuk Melihat Repo
-REPO_NAME = os.environ.get("REPO_NAME") or "💀KARMAN-USERBOT💀"
+REPO_NAME = os.environ.get("REPO_NAME") or "😈JESS-UBOT😈"
 
 # DEVS
 DEVS = (
@@ -201,7 +201,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "KARMAN-USERBOT")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "JESS-UBOT")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "7.0")
@@ -237,7 +237,7 @@ OWNER_BOT = os.environ.get(
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
-DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "💀 KARMAN-USERBOT 💀"
+DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "😈JESS-UBOT 😈"
 
 LASTFM_API = os.environ.get("LASTFM_API", None)
 LASTFM_SECRET = os.environ.get("LASTFM_SECRET", None)
@@ -415,7 +415,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 async def update_restart_msg(chat_id, msg_id):
     DEFAULTUSER = ALIVE_NAME or "Set `ALIVE_NAME` ConfigVar!"
     message = (
-        f"**💀KARMAN-USERBOT💀 v{BOT_VER} Sedang berjalan!**\n\n"
+        f"**😈JESS-UBOT😈 v{BOT_VER} Sedang berjalan!**\n\n"
         f"**Telethon:** {version.__version__}\n"
         f"**Python:** {python_version()}\n"
         f"**User:** {DEFAULTUSER}"
@@ -521,8 +521,8 @@ with bot:
                 buttons=[
                     [
                         custom.Button.url(
-                            text="⚠️ REPO KARMAN-USERBOT ⚠️",
-                            url="https://github.com/ArmanGG01/KARMAN-USERBOT",
+                            text="⚠️ REPO JESS-UBOT ⚠️",
+                            url="https://github.com/Jeskeren/JESS-UBOT",
                         )
                     ],
                     [
@@ -546,7 +546,7 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=True,
-                    text=f"**⚠️ inline KARMAN-USERBOT ⚠️**\n\n💀 **Owner** [ARMAN](t.me/PakkPoll)\n⚠️ **Jumlah** `{len(dugmeler)}` Modules",
+                    text=f"**⚠️ inline JESS-BOT ⚠️**\n\n💀 **Owner** [JESS](t.me/PakkPoll)\n⚠️ **Jumlah** `{len(dugmeler)}` Modules",
                     buttons=buttons,
                 )
             elif query.startswith("repo"):
