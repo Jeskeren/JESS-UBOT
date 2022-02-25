@@ -228,7 +228,7 @@ EMOJI_HELP = os.environ.get("EMOJI_HELP") or "🐷"
 
 # Default .alive Group
 GROUP_LINK = os.environ.get(
-    "GROUP_LINK") or "t.me/obrolansuar"
+    "GROUP_LINK") or "t.me/Healingvirtual"
 
 # Default .repo Bot
 OWNER_BOT = os.environ.get(
@@ -527,10 +527,10 @@ with bot:
                     ],
                     [
                         custom.Button.url(
-                            text="GROUP", url="https://t.me/masukksiniJKN"
+                            text="GROUP", url="https://t.me/Healingvirtual"
                         ),
                         custom.Button.url(
-                            text="CHANNEL", url="https://t.me/DeployBot01"
+                            text="CHANNEL", url="https://t.me/kisahjes"
                         ),
                     ],
                 ],
@@ -553,11 +553,11 @@ with bot:
                 result = builder.article(
                     title="Repository",
                     description="Repository ⚠️JESS-UBOT⚠️",
-                    url="https://t.me/masukksiniJKN",
-                    text="**😈JESS-UBOT😈**\n➖➖➖➖➖➖➖➖➖➖\n⚠️ **Owner :** [ARMAN](https://t.me/PakkPoll)\n⚠️ **Support :** @masukksiniJKN\n⚠️ **Repository :** [💀KARMAN-USERBOT💀](https://github.com/ArmanGG01/KARMAN-USERBOT)\n➖➖➖➖➖➖➖➖➖➖ ",
+                    url="https://t.me/Healingvirtual",
+                    text="**😈JESS-UBOT😈**\n➖➖➖➖➖➖➖➖➖➖\n⚠️ **Owner :** [JESS](https://t.me/Jesxzy)\n⚠️ **Support :** @Healingvirtual\n⚠️ **Repository :** [😈JESS-UBOT😈](https://github.com/Jeskeren/JESS-UBOT)\n➖➖➖➖➖➖➖➖➖➖ ",
                     buttons=[
                         [
-                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/masukksiniJKN"),
+                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/Healingvirtual"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ", "https://github.com/Jeskeren/JESS-UBOT"
                             ),
@@ -569,11 +569,11 @@ with bot:
                 result = builder.article(
                     title="😈JESS-UBOT😈",
                     description="JESS-UBOT | Telethon",
-                    url="https://t.me/masukksiniJKN",
+                    url="https://t.me/Healingvirtual",
                     text=f"**JESS-UBOT**\n➖➖➖➖➖➖➖➖➖➖\n⚠️ **OWNER:** [JESS](t.me/Jesxzy)\n⚠️ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:**DeplyoBot01\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
-                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/masukksiniJKN"),
+                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/Healingvirtual"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ", "https://github.com/Jeskeren/JESS-UBOT"
                             ),
@@ -666,9 +666,9 @@ with bot:
                     buttons=[
                         [
                             Button.url("📢 Channel Support",
-                                       "t.me/DeployBot01"),
+                                       "t.me/kisahjes"),
                             Button.url("📌 Group support",
-                                       "t.me/masukksiniJKN")],
+                                       "t.me/Healingvirtual")],
                         [Button.inline("Open Menu", data="nepo")],
                         [custom.Button.inline(
                             "Close", b"close")],
