@@ -5,7 +5,7 @@ FROM xluxz/geezproject:buster
 #
 #YA UDH IYA PEPEK
 
-RUN git clone -b JESS-UBOT https://github.com/Jeskeren/JESS-UBOT /root/userbot
+RUN git clone -b JES-UBOT https://github.com/Jeskeren/JESS-UBOT /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
