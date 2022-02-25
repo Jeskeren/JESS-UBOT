@@ -21,4 +21,4 @@
 TERIMAKASIH UNTUK
 
 *   [PETARUNG]
-*   [JESS](https://t.me/Jesxzy) - 😈JESS-UBOT😈
+*   [JESS](https://t.me/Jesxzy) - 🐯JESS-UBOT🐯
