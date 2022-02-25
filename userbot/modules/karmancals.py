@@ -2,7 +2,7 @@
 # Ported By Vcky @VckyouuBitch + @MaafGausahSokap
 # Copyright (c) 2021 Geez - Projects
 # Geez - Projects https://github.com/Vckyou/Geez-UserBot
-# RAM - UBOT https://github.com/ramadhani892/RAM-UBOT
+# JESS - UBOT https://github.com/Jeskeren/JESS-UBOT
 # Ini Belum Ke Fix Ya Bg :')
 # Ambil aja gapapa tp Gaguna kaya hidup lu Woakkakaka
 
