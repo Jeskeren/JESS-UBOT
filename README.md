@@ -1,7 +1,7 @@
-<a href="https://heroku.com/deploy?template=https://github.com/ArmanGG01/Deploy.git"><img src="https://telegra.ph/file/9a269b4f210f7c9021a2a.jpg" width="320" height="211" alt="  JES-USERBOT" /></a>
+<a href="https://heroku.com/deploy?template=https://github.com/Jeskeren/Deploy.git"><img src="https://telegra.ph/file/9a269b4f210f7c9021a2a.jpg" width="320" height="211" alt="  JES-USERBOT" /></a>
 
 <p align="center">
-  <a href="https://github.com/ArmanGG01/Deploy/fork">
+  <a href="https://github.com/Jeskeren/Deploy/fork">
     <img src="https://img.shields.io/github/forks/Jeskeren/JESS-UBOT?label=Fork&style=social">
     
   </a>
@@ -20,5 +20,5 @@
 ## Credit
 TERIMAKASIH UNTUK
 
-*   [Gledek]
-*   [Arman](https://t.me/PakkPoll) - 😈JESS-UBOT😈
+*   [PETARUNG]
+*   [JESS](https://t.me/Jesxzy) - 😈JESS-UBOT😈
