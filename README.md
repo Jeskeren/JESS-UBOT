@@ -2,11 +2,11 @@
 
 <p align="center">
   <a href="https://github.com/ArmanGG01/Deploy/fork">
-    <img src="https://img.shields.io/github/forks/Jeskeren/JES-USERBOT?label=Fork&style=social">
+    <img src="https://img.shields.io/github/forks/Jeskeren/JESS-UBOT?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/Jeskeren/JES-USERBOT">
-    <img src="https://img.shields.io/github/stars/Jeskeren/JES-USERBOT?style=social">
+  <a href="https://github.com/Jeskeren/JESS-UBOT">
+    <img src="https://img.shields.io/github/stars/Jeskeren/JESS-UBOT?style=social">
   </a>
 </p>  
 
@@ -21,4 +21,4 @@
 TERIMAKASIH UNTUK
 
 *   [Gledek]
-*   [Arman](https://t.me/PakkPoll) - 💀KARMAN-USERBOT💀
+*   [Arman](https://t.me/PakkPoll) - 😈JESS-UBOT😈
