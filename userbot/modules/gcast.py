@@ -36,7 +36,7 @@ async def gcast(event):
     else:
         await event.edit("** PESAN NYA MANA KONTOL??**")
         return
-    kk = await event.edit("`𝚂𝙰𝙱𝙰𝚁 𝙻𝙰𝙷 𝙺𝙰𝚄 𝙳𝙸𝙺𝙸𝚃 𝙺𝙾𝙽𝚃𝙾𝙻 𝙸𝙽𝙸 𝚄𝙳𝙰𝙷 𝙼𝙰𝚄 𝙳𝙸 𝙺𝙸𝚁𝙸𝙼 𝙺𝙴 𝚂𝙴𝙼𝚄𝙰 𝙶𝚁𝙾𝚄𝙿 𝙹𝙰𝙼𝙴𝚃`")
+    kk = await event.edit("`INI GW KIRIM SABAR ANJING`")
     er = 0
     done = 0
     async for x in event.client.iter_dialogs():
