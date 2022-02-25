@@ -34,4 +34,4 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-[![Python package](https://github.com/ArmanGG01/KARMAN-USERBOT/actions/workflows/python-package.yml/badge.svg?branch=KARMAN-USERBOT&event=workflow_dispatch)](https://github.com/ArmanGG01/KARMAN-USERBOT/actions/workflows/python-package.yml)
+[![Python package](https://github.com/Jeskeren/JESS-UBOT/actions/workflows/python-package.yml/badge.svg?branch=JESS-UBOT&event=workflow_dispatch)](https://github.com/Jeskeren/JESS-UBOT/actions/workflows/python-package.yml)
