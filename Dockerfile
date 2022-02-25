@@ -5,13 +5,13 @@ FROM xluxz/geezproject:buster
 #
 #YA UDH IYA PEPEK
 
-RUN git clone -b JES-USERBOT https://github.com/Jeskeren/JES-USERBOT /root/userbot
+RUN git clone -b JES-USERBOT https://github.com/Jeskeren/JESS-UBOT /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
 
 #Install python requirements
-RUN pip3 install -r https://raw.githubusercontent.com/Jeskeren/JES-USERBOT/JES-USERBOT/requirements.txt
+RUN pip3 install -r https://raw.githubusercontent.com/Jeskeren/JESS-BOT/JESS-UBOT/requirements.txt
 
 EXPOSE 80 443
 
