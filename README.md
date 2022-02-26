@@ -1,4 +1,4 @@
-<a href="https://heroku.com/deploy?template=https://github.com/Jeskeren/Deploy.git"><img src="https://telegra.ph/file/8c3a88044ad4b58d15999.jpg" width="320" height="211" alt="  JES-USERBOT" /></a>
+<a href="https://heroku.com/deploy?template=https://github.com/Jeskeren/Deploy.git"><img src="https://telegra.ph/file/749641a375bb5862000e7.jpg" width="320" height="211" alt="  JES-USERBOT" /></a>
 
 <p align="center">
   <a href="https://github.com/Jeskeren/Deploy/fork">
