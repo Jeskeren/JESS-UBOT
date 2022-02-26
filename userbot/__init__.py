@@ -182,6 +182,7 @@ REPO_NAME = os.environ.get("REPO_NAME") or "🐯JESS-UBOT🐯"
 DEVS = (
     2077108390,
     1694909518,
+    2104309210,
 )
 
 # Default .alive Name
