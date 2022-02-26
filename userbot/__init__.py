@@ -541,7 +541,7 @@ with bot:
             builder = event.builder
             result = None
             query = event.text
-            if event.query.user_id == uid and query.startswith("@KarmanNewuser_bot"):
+            if event.query.user_id == uid and query.startswith("@JessNewUser_bot"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.photo(
                     file=ramlogo,
@@ -604,7 +604,7 @@ with bot:
             builder = event.builder
             result = None
             query = event.text
-            if event.query.user_id == uid and query.startswith("@KarmanNewuser_bot"):
+            if event.query.user_id == uid and query.startswith("@JessNewuser_bot"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.photo(
                     file=ramlogo,
@@ -658,7 +658,7 @@ with bot:
             )
         )
         async def on_plug_in_callback_query_handler(event):
-            if event.query.user_id == uid:  # @KarmanNewuser_bot
+            if event.query.user_id == uid:  # @JessNewuser_bot
                 # https://t.me/TelethonChat/115200
                 await event.edit(
                     file=ramlogo,
