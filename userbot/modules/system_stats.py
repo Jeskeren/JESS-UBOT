@@ -269,7 +269,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
-        f"  **♕ ⚠️ 𝐊𝐀𝐑𝐌𝐀𝐍 ⚠️  ♕** \n"
+        f"  **🐯JESS-UBOT🐯** \n"
         f"**╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
         f"❃ **Tuan**             ➥ `{DEFAULTUSER}` \n"
         f"❃ **Username**    ➥ `@{user.username}` \n"
@@ -310,7 +310,7 @@ async def amireallyalive(alive):
     await asyncio.sleep(3)
     output = (
         f"**✠╼━━━━━━❖━━━━━━━✠ ** \n"
-        f"**     ⚠️ 𝐊𝐀𝐑𝐌𝐀𝐍 ⚠️** \n"
+        f"**     🐯JESS-UBOT🐯** \n"
         f"**✠╼━━━━━━❖━━━━━━━✠** \n"
         f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
         f"┣|• `🤴 Majikan  :`{DEFAULTUSER} \n"
