@@ -8,7 +8,7 @@ import os
 import asyncio
 from datetime import datetime
 from telethon import events
-from telethon.tl import functions, types
+from telethon.tl functions, types
 
 from userbot import (  # noqa pylint: disable=unused-import isort:skip
     AFKREASON,
