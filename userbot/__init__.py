@@ -222,7 +222,7 @@ HELP_LOGO = os.environ.get(
    "HELP_LOGO") or "https://telegra.ph/file/749641a375bb5862000e7.jpg"
 
 # Default .alive Instagram
-IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/arman_nasution123"
+IG_ALIVE = os.environ.get("IG_ALIVE") or "https://www.instagram.com/_fims06/"
 
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "🦁"
