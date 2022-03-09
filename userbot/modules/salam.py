@@ -9,7 +9,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 @register(outgoing=True, pattern='^P(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("𝐀ASALAMUALIKUM.. mau di jawa apa engga terserah TODDD...")
+    await typew.edit("𝐀ASALAMUALIKUM.. mau di jawab apa engga terserah TODDD...")
 
 
 @register(outgoing=True, pattern='^.atg(?: |$)(.*)')
@@ -33,19 +33,19 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^K(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**𝐊𝐎KUMIS LO NOH NYAMPE DAGU CUKUR GOBLOK !!!**")
+    await typew.edit("**KUMIS LO NOH NYAMPE DAGU CUKUR GOBLOK !!!**")
 
 
 @register(outgoing=True, pattern='^N(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**𝐍EH SUSU MAMA LU GE ISEP SAMPE BILANG UH AH UH AH.....𝐓𝐓𝐓**")
+    await typew.edit("**EH SUSU MAMA LU GE ISEP SAMPE BILANG UH AH UH AH.....𝐓𝐓𝐓**")
 
 
 @register(outgoing=True, pattern='^B(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**𝘽BACOT.... TULANG RAHANG LO GW GEDOR MAU ?𝙊𝙏!!!!**")
+    await typew.edit("**BACOT.... TULANG RAHANG LO GW GEDOR MAU ?𝙊𝙏!!!!**")
 
 
 @register(outgoing=True, pattern='^M(?: |$)(.*)')
@@ -93,7 +93,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^X(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**𝙂IDIH SINI GW KASIH LINK BOKEP MAU TIMBANG NGAJAK ORNG VCS MULU!**")
+    await typew.edit("**IDIH SINI GW KASIH LINK BOKEP MAU TIMBANG NGAJAK ORNG VCS MULU!**")
 
 
 @register(outgoing=True, pattern='^Z(?: |$)(.*)')
@@ -159,7 +159,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^F(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**𝙁MAIN BOT LEBIH BAIK BRO... TIMBANG MAININ HATI CEWE YAKENNNN**")
+    await typew.edit("**MAIN BOT LEBIH BAIK BRO... TIMBANG MAININ HATI CEWE YAKENNNN**")
 
 
 @register(outgoing=True, pattern='^E(?: |$)(.*)')
