@@ -1,7 +1,7 @@
 {
   "name": "JESS-UBOT",
   "description": "[JESS-UBOT] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/9a269b4f210f7c9021a2a.jpg",
+  "logo": "https://telegra.ph/file/749641a375bb5862000e7.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -24,7 +24,7 @@
     },
     "ALIVE_LOGO": {
       "description": "BUAT ALIVE LOGO MU SENDIRI.",
-      "value": "https://telegra.ph/file/9a269b4f210f7c9021a2a.jpg",
+      "value": "https://telegra.ph/file/749641a375bb5862000e7.jpg",
       "required": true
      },
      "STRING_SESSION": {
@@ -90,7 +90,7 @@
       "required": false
     },
     "G_BAN_LOGGER_GROUP": {
-      "description": "Masuk @obrolansuar Atau Buatlah Sebuah Grup Private/Public Lalu Masukkan @MissRose_Bot Lalu Ketik /id, Salin dan hapus id dibawah ini lalu tempel.",
+      "description": "Masuk @Healingvirtual Atau Buatlah Sebuah Grup Private/Public Lalu Masukkan @MissRose_Bot Lalu Ketik /id, Salin dan hapus id dibawah ini lalu tempel.",
       "value": "-1001302879778",
       "required": false
     },
