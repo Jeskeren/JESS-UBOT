@@ -9,7 +9,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 @register(outgoing=True, pattern='^P(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("𝐀ASALAMUALIKUM.. mau di jawab apa engga terserah TODDD...")
+    await typew.edit("ASALAMUALIKUM.. mau di jawab apa engga terserah TODDD...")
 
 
 @register(outgoing=True, pattern='^.atg(?: |$)(.*)')
@@ -69,13 +69,13 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^S(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**𝙂SUNDALA TAILASO**")
+    await typew.edit("**SUNDALA TAILASO**")
 
 
 @register(outgoing=True, pattern='^V(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**𝙆VCS...TOLOL MEMEK KOK D JUAL !**")
+    await typew.edit("**VCS...TOLOL MEMEK KOK D JUAL !**")
 
 
 @register(outgoing=True, pattern='^J(?: |$)(.*)')
@@ -87,7 +87,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^A(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**ALAH PALINGAN JUGA PP LO PINTERST TOLOL SOK GANTENG EJE LO**")
+    await typew.edit("**ALAH PALINGAN JUGA PP LO PINTERST TOLOL SOK GANTENG AJE LO**")
 
 
 @register(outgoing=True, pattern='^X(?: |$)(.*)')
@@ -111,7 +111,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^O(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**ULAR KADUT KEMAN SETAN EH LO MASIH NGUDUT JAN BELAGU SAMPO LO SASETAN**")
+    await typew.edit("**ULAR KADUT TEMAN SETAN EH LO MASIH NGUDUT JAN BELAGU SAMPO LO SASETAN**")
 
 
 @register(outgoing=True, pattern='^D(?: |$)(.*)')
