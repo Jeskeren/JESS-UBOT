@@ -19,11 +19,11 @@ from userbot.events import register
 gesss = [
     "Eh ada Owner keren",
     "Hadir ganteng 😍",
-    "Hi Tuan, kemana sj? 🤗",
+    "Hi cinta, kemana sj? 🤗",
     "Hadir kak 😉",
     "Hadir bang 😁",
     "Hadir bang maap telat 🥺",
-    "Saya slalu ada buat Tuan🥵",
+    "Saya slalu ada buat kawanku🤗",
     "Jangan kemana mana lagi ya bang",
     "Pas banget bang, aku lagi kangen",
     "Bang owner on juga akhirnya🥵",
@@ -70,18 +70,18 @@ async def get_readable_time(seconds: int) -> str:
     return up_time
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"^gesss(?: |$)(.*)")
+@register(incoming=True, from_users=DEVS, pattern=r"^sabatt(?: |$)(.*)")
 async def _(arman):
-    await arman.reply(random.choice(gesss))
+    await arman.reply(random.choice(sobatt))
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"^brb(?: |$)(.*)")
+@register(incoming=True, from_users=DEVS, pattern=r"^afk(?: |$)(.*)")
 async def _(arman):
-    await arman.reply(random.choice(brb))
+    await arman.reply(random.choice(afk))
 
 
 @register(outgoing=True, pattern="^.ping$")
-@register(incoming=True, from_users=1694909518, pattern=r"^\.cping$")
+@register(incoming=True, from_users=1683788007, pattern=r"^\.cping$")
 async def redis(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
