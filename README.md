@@ -20,5 +20,5 @@
 ## Credit
 TERIMAKASIH UNTUK
 
-*   [PETARUNG]
+*   [PETARUNG JALANAN]
 *   [JESS](https://t.me/Jesxzy) - 🐯JESS-UBOT🐯
