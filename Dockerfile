@@ -1,19 +1,17 @@
-# Using Python Slim-Buster
-FROM xluxz/geezproject:buster
-# JES-USERBOT
-# GLEDEK-USERBOT
-#
-#YA UDH IYA PEPEK
+FROM ramadhani892/ramagans:slim-buster
 
-RUN git clone -b JES-UBOT https://github.com/Jeskeren/JESS-UBOT /root/userbot
-RUN mkdir /root/userbot/.bin
-RUN pip install --upgrade pip setuptools
-WORKDIR /root/userbot
+# Rama ganteng, Yang hapus credit, Lo babi heheh
+# ======================
+#    RAM-UBOT DOCKER
+#   FROM DOCKERHUB.COM
+# ======================
 
-#Install python requirements
-RUN pip3 install -r https://raw.githubusercontent.com/Jeskeren/JESS-UBOT/JESS-UBOT/requirements.txt
 
-EXPOSE 80 443
+RUN git clone -b JES-UBOT https://github.com/jeskeren/JESS-UBOT /home/ram-ubot/ \
+    && chmod 777 /home/ram-ubot \
+    && mkdir /home/ram-ubot/bin/
+WORKDIR /home/ram-ubot/
 
-# Finalization
-CMD ["python3","-m","userbot"]
+
+CMD ["python3", "-m", "userbot"]
+
