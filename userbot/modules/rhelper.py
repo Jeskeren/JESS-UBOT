@@ -12,9 +12,9 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 async def usit(e):
     await e.edit(
         f"**Hai {DEFAULTUSER} Kalau Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `.rhelp` Atau Bisa `.help` atau Minta Bantuan Ke:\n"
-        "\n[ARMAN](t.me/masukksiniJKN)"
-        "\n\n[SUPPORT](https://t.me/obrolansuar)"
-        "\n\n[CHANNEL](https://t.me/DeployBot01")
+        "\n[ARMAN](t.me/Famssomasi)"
+        "\n\n[SUPPORT](https://t.me/kisahjes)"
+        "\n\n[CHANNEL](https://t.me/kny0l")
 
 
 @register(outgoing=True, pattern="^.rvars$")
@@ -27,7 +27,7 @@ async def var(m):
 CMD_HELP.update({
     "ramhelper":
     "`.helpmy`\
-\nPenjelasan: Bantuan Untuk KARMAN-USERBOT.\
+\nPenjelasan: Bantuan Untuk JESS-UBOT.\
 \n`.rvars`\
 \nPenjelasan: Untuk Melihat Beberapa Daftar Vars."
 })
